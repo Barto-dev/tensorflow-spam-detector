@@ -127,9 +127,15 @@ button:focus, button:hover, header a:hover {
     font-weight: bold;
 }
 
+.model-link {
+    font-size: 24px;
+    color: deepskyblue;
+}
+
 .processing {
     opacity: 0.3;
     filter: grayscale(1);
+    pointer-events: none;
 }
 
 .comments ul li.spam {
